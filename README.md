@@ -1,9 +1,11 @@
 This project creates a simple blockchain using python:
 
-# First starts importing datetime and hashlib libraries
+# Importing dependencies
+First starts importing datetime and hashlib libraries
 to create timestamps and target hashes for the blocks.
 
-# Seconds the block class is defined on its main elements with a
+# Defining a Block
+Seconds the block class is defined on its main elements with a
 hash function that sumarizes the attributes of a block
      nonce
      data
@@ -12,10 +14,12 @@ hash function that sumarizes the attributes of a block
      block number
       
 
-# Third the blockchain class is defined implementing two methods
+# Defining the Block Chain
+Third the blockchain class is defined implementing two methods
       add  a block
       mine a block
 
-# Finally this will create a blockchian mining the block and printing out.
+# Mining and Printing
+Finally this will create a blockchian mining the block and printing out.
 
 
