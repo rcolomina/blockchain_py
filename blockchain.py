@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # 1. Import dependencies
 
@@ -67,8 +67,6 @@ class Blockchain:
     block = Block("Genesis")
     # set it as the head of our blockchain
     head = block
-
-
     
     # adds a given block to the chain of blocks
     def add(self, block):
@@ -103,7 +101,7 @@ print("Blockchain target difficulty: \n"+ str(blockchain.target))
 
 # mine 10 blocks
 for n in range(10):
-    blockchain.mine(Block("Block " + str(n + 1)))
+    blockchain.mine(Block("Here is your data block - block number = " + str(n + 1)))
 
 # print out each block in the blockchain
 while blockchain.head != None:
